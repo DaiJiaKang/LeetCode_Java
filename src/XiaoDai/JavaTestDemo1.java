@@ -17,10 +17,10 @@ public class JavaTestDemo1 {
 		}
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		JavaTestDemo1.Func1();
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		JavaTestDemo1.Func1();
+//	}
 	
 	
 
