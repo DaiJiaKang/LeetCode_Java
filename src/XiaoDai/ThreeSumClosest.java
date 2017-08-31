@@ -4,16 +4,14 @@ import java.util.Arrays;
 
 public class ThreeSumClosest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] nums = {0, 0, 0};
-		System.out.println(Solution.threeSumClosest(nums, 1));
-		
-	}
-
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		int[] nums = {0, 0, 0};
+//		System.out.println(Solution.threeSumClosest(nums, 1));
+//	}
 }
 
-class Solution {
+class SolutionofThreeSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
     	boolean isFirst = true, isFound = false;
         int ans = 0;
