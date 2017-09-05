@@ -1,7 +1,11 @@
 package XiaoDai;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
+import java.util.Stack;
+
 
 public class JavaTestDemo1 {
 
@@ -15,6 +19,10 @@ public class JavaTestDemo1 {
 		{
 			System.out.println(it.next());
 		}
+		//Stack<Integer> st = new Stack<Integer>();
+		LinkedList<Integer> linklist = new LinkedList<Integer>();
+		ListIterator<Integer> at = linklist.listIterator();
+		
 	}
 	
 //	public static void main(String[] args) {
@@ -25,3 +33,4 @@ public class JavaTestDemo1 {
 	
 
 }
+

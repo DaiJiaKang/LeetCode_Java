@@ -5,11 +5,11 @@ import java.util.List;
 
 public class LetterCombinationsofaPhoneNumber {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String digits = "";
-		SolutionofLetterCombinationsofaPhoneNumber.letterCombinations(digits);
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		String digits = "";
+//		SolutionofLetterCombinationsofaPhoneNumber.letterCombinations(digits);
+//	}
 
 }
 
