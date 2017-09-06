@@ -25,12 +25,35 @@ public class JavaTestDemo1 {
 		
 	}
 	
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		JavaTestDemo1.Func1();
-//	}
-	
-	
-
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<A> array = new ArrayList<A>();
+		//A a = new A("xiaodai");
+		B b = new B(23, "xiaodai");
+		array.add(b);
+	}
 }
+
+class A {
+	String name;
+	public A(String name) {
+		super();
+		this.name = name;
+	}
+}
+
+class B extends A {
+	int age;
+	public B(int age, String name) {
+		super(name);
+		this.age = age;
+	}
+}
+
+
+
+
+
+
+
 
