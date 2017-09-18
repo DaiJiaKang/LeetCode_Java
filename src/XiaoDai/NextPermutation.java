@@ -4,7 +4,7 @@ public class NextPermutation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums = {1, 3, 2};
+		int[] nums = {3, 2, 1};
 		SolutionNextPermutation.nextPermutation(nums);
 		for(int num : nums) {
 			System.out.println(num);
@@ -41,6 +41,16 @@ class SolutionNextPermutation {
             	break;
         	}
         	start--;
+        }
+        if(start < 0) {
+        	start = 0;
+        	int end = nums.length - 1;
+        	while(start < end) {
+        		int tmp = nums[start];
+        		nums[start] = nums[end];
+        		nums[end] = tmp;
+        		start++; end--;
+        	}
         }
     }
 }
