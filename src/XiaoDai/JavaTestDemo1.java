@@ -26,11 +26,10 @@ public class JavaTestDemo1 {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ArrayList<A> array = new ArrayList<A>();
-		//A a = new A("xiaodai");
-		B b = new B(23, "xiaodai");
-		array.add(b);
+		String a = new String("123");
+		String b = new String("123");
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
 	}
 }
 
