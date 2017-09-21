@@ -24,17 +24,13 @@ class SolutionCountandSay {
 				num = 1;
 			}
 		}
-//		if(num > 1) {
-//			ans.append(String.valueOf(num)).append(str.charAt(i));
-//			
-//		}
 		return ans.toString();
 	}
     public static String countAndSay(int n) {
     	if(array[n] != null)
         	return array[n];
         if(n == 1)
-        	return array[1] = "1";
+        	return array[1] = "1";                  
         return array[n] = SolutionCountandSay.func(countAndSay(n - 1));
     }
 }
